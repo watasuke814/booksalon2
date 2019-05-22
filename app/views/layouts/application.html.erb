@@ -10,6 +10,7 @@
   </head>
 
   <body>
+  
     <header>
       <div class="header-logo">
         <a href="/">BookSalon</a>
@@ -22,7 +23,7 @@
             UserList
           </li>
           <li>
-            PostList
+            <a href="/posts/index">PostList</a>
           </li>
           <li>
             NewPost
@@ -38,6 +39,9 @@
           </li>
       </ul>
     </header>
-    <%= yield %>
+    
+    <div class="container">
+     <%= yield %>
+    </div>
   </body>
 </html>
